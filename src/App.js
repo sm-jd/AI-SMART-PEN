@@ -1,7 +1,7 @@
 import { useState } from "react";
 import OpenAI from "openai";
 
-const openai = new OpenAI(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);
+const openai = new OpenAI();
 function App() {
     const [image, setImage] = useState(null);
     const [result, setResult] = useState("");
