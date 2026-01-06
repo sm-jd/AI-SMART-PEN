@@ -9,7 +9,7 @@ import openai
 from gtts import gTTS
 
 # Configure
-OPENAI_API_KEY = "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";
+OPENAI_API_KEY = "
 openai.api_key = OPENAI_API_KEY
 
 app = Flask(__name__)
@@ -76,6 +76,7 @@ def serve_tts(filename):
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
+
 
 
 
